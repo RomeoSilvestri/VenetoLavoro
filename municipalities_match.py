@@ -146,7 +146,7 @@ def comuni_similarity(df_master, df_mapp):
 # FINE FUNZIONI---------------------------
 
 # Import File Master e File ISTAT di Supporto per la Mappatura
-path_input = os.getcwd() + '\\clean\\st_comuni\\input\\'
+path_input = os.getcwd()
 selection = ('SELECT cod_comune,cod_provincia,des_comune,cod_istat,cod_inps,cod_cap, cod_prefisso,dat_inizio,dat_fine,'
              'dtt_tmst,dat_agg,revisione,attivo from st_comuni_raw')
 cl_names = ['cod_comune', 'cod_provincia', 'des_comune', 'cod_istat', 'cod_inps', 'cod_cap', 'cod_prefisso',
